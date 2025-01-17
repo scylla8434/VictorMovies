@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family:  sans-serif;
+    background-color: #131720;
+}
+h3 {
+    color: #ffbb36;
+}
+.topnav {
+        overflow: hidden;
+        background-color: #131720;
+        padding: 10px;
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    color: #ffbb36;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 14px 16px;
+    text-transform: uppercase;
+
+}
+
+.topnav a:hover {
+    color: white;
+}
+.topnav .search-container {
+    float: right;
+
+
+}
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+}
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+.video{
+    height: 250px;
+    width: 250px;
+    border-radius: 19px;
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+}
